@@ -1,0 +1,57 @@
+tango-icon-theme
+-------------------------------------------
+This is an icon theme that follows the Tango visual guidelines.
+
+Build requirements:
+  cygwin-1.5.20-1
+  binutils-20050610-1
+  cygport-0.2.2-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  ImageMagick-6.0.4-1
+  icon-naming-utils-0.7.1-1
+  make-3.80-1
+  sed-4.1.4-1
+
+Canonical homepage:
+  http://www.tango-project.org/
+
+Canonical download:
+  http://tango-project.org/releases/
+
+-------------------------------------------
+
+Build instructions:
+  unpack tango-icon-theme-0.7.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./tango-icon-theme-0.7.1-X.cygport all
+
+This will create:
+  /usr/src/tango-icon-theme-0.7.1-X-src.tar.bz2
+  /usr/src/tango-icon-theme-0.7.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/share/doc/Cygwin/tango-icon-theme-0.7.1.README
+  /usr/share/doc/tango-icon-theme-0.7.1/AUTHORS
+  /usr/share/doc/tango-icon-theme-0.7.1/COPYING
+  /usr/share/doc/tango-icon-theme-0.7.1/ChangeLog
+  /usr/share/doc/tango-icon-theme-0.7.1/INSTALL
+  /usr/share/doc/tango-icon-theme-0.7.1/README
+  /usr/share/icons/Tango/*/*/*
+
+------------------
+
+Port Notes:
+
+----- version 0.7.1-1 -----
+Initial release for Cygwin.
+
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
