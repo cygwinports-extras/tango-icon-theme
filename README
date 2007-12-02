@@ -4,10 +4,10 @@ This is an icon theme that follows the Tango visual guidelines.
 
 Build requirements:
   cygwin-1.5.24-2
-  cygport-0.2.11-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
-  ImageMagick-6.0.4-1
-  icon-naming-utils-0.8.2-1
+  ImageMagick-6.3.6.3-1
+  icon-naming-utils-0.8.6-1
   make-3.81-1
   sed-4.1.5-2
 
@@ -20,31 +20,34 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack tango-icon-theme-0.8.0-X-src.tar.bz2
+  unpack tango-icon-theme-0.8.1-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./tango-icon-theme-0.8.0-X.cygport all
+  cygport ./tango-icon-theme-0.8.1-X.cygport all
 
 This will create:
-  /usr/src/tango-icon-theme-0.8.0-X-src.tar.bz2
-  /usr/src/tango-icon-theme-0.8.0-X.tar.bz2
+  /usr/src/tango-icon-theme-0.8.1-X-src.tar.bz2
+  /usr/src/tango-icon-theme-0.8.1-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/Cygwin/tango-icon-theme-0.8.0.README
-  /usr/share/doc/tango-icon-theme-0.8.0/AUTHORS
-  /usr/share/doc/tango-icon-theme-0.8.0/COPYING
-  /usr/share/doc/tango-icon-theme-0.8.0/ChangeLog
-  /usr/share/doc/tango-icon-theme-0.8.0/INSTALL
-  /usr/share/doc/tango-icon-theme-0.8.0/README
+  /usr/share/doc/Cygwin/tango-icon-theme-0.8.1.README
+  /usr/share/doc/tango-icon-theme-0.8.1/AUTHORS
+  /usr/share/doc/tango-icon-theme-0.8.1/COPYING
+  /usr/share/doc/tango-icon-theme-0.8.1/ChangeLog
+  /usr/share/doc/tango-icon-theme-0.8.1/INSTALL
+  /usr/share/doc/tango-icon-theme-0.8.1/README
   /usr/share/icons/Tango/*/*/*
 
 ------------------
 
 Port Notes:
+
+----- version 0.8.1-1 -----
+Version bump.
 
 ----- version 0.8.0-1 -----
 Version bump.
